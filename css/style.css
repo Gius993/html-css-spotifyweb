@@ -5,4 +5,35 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
-/*Desktop*/
+.app-wrapper{
+	width: 100%;
+	height: 100vh;
+	
+}
+
+/*Desktop sopra <1100px*/
+main{
+	background-color: aqua;
+	width: 100%;
+	height: calc(100vh - 100px);
+	display: flex;
+}
+
+footer{
+	background-color: blue;
+	width: 100%;
+	height: 100px;
+	
+}
+
+.left-nav{
+	background-color: brown;
+	width: 250px;
+	overflow-y: hidden;
+}
+.main-content{
+	background-color: coral;
+	width: calc(100% - 250px);
+	overflow-y: scroll;
+
+}
