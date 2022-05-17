@@ -245,6 +245,20 @@ h3{
 .container-title-imgcerchio{
 	margin-left: 10px;
 }
+
+/****************footer**********/
+.container-play{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.area{
+	width: calc(70% / 3);
+	height: 100%;
+	background-color: aquamarine;
+	border: 1px solid red;
+}
 /***************style**************/
 .bottone-nero{
 	padding: 10px 25px;
