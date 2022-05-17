@@ -188,6 +188,13 @@ footer{
 .per-jhon{
 	margin-top: 50px;
 }
+.player-jhon{
+	display: flex;
+	margin-top: 20px;
+}
+.margin-jhon-fix{
+	margin-left: 15px;
+}
 .per-jhon p{
 	margin-top: 10px;
 	font-weight: 700;
