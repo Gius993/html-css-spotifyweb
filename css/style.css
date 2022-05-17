@@ -97,9 +97,16 @@ footer{
 }
 .installa{
 	margin-bottom: 10px;
+	width: 100%;
+}
+.profilo-installa img{
+	width: 6%;	
 }
 .profilo{
 	margin: 10px 0px;
+}
+hr{
+	width: 220px;
 }
 /****************************************/
 .main-content{
@@ -153,7 +160,9 @@ footer{
 .recently{
 	margin-top:50px ;
 }
-
+.bordol{
+	border-bottom: greenyellow;
+}
 /*brani recenti*****************/
 .recently img{
  width: 100%;
