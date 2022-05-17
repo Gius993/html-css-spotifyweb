@@ -216,8 +216,13 @@ footer{
 	font-size: 12px;
 	color: #5e5e5e;
 }
+.immagini-cerchio{
+	margin-top: 25px;
+	display: flex;
+}
 .cerchio{
 	/*test*/
+	margin-right: 15px;
 	width: 100px;
 	height: 100px;
 	border: 1px solid red;
