@@ -386,9 +386,15 @@ footer img{
 /************max 1100px**************/
 @media screen and (max-width: 1100px){
 	/**lista**/
-	.song-lyst ul:last-child {
-		flex-wrap: wrap;
+	.brano-titolo{
+		width: calc(90% / 4);
+		margin-left: 10px;
 	}
+	.brani-recenti {
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}	
+
 }
 
 
