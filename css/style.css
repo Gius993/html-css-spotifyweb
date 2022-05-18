@@ -301,14 +301,30 @@ footer p{
 }
 .testo-brano{
  margin-top: 30px;
+ text-align: center;
+}
+.testo-brano p{
+	font-size: 10px;
 }
 .brano-immagine{	
 	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 10px;
+	width: 50px;
+	
 }
 footer img{
-	width: 10%;	
+	width: 100%;
 }
-
+.mi-piace{
+	color:#a3a3a3 ;
+	margin-top: 40px;
+	margin-left: 60px;
+	margin-right: 10px;	
+}
+.play-button{
+	color: white;
+}
 
 /***************style**************/
 .bottone-nero{
