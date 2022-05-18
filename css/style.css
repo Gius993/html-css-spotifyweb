@@ -144,10 +144,11 @@ hr{
 	align-items: center;
 	padding-right: 5px;
 }
+
 .song-lyst ul{
 	display: flex;
-	justify-content: center;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 .song-lyst{
 	padding: 0 40px;
@@ -404,6 +405,9 @@ footer img{
 		justify-content: flex-start;
 		flex-wrap: wrap;
 	}	
+	.song-lyst{
+		flex-wrap: wrap;
+	}
 
 }
 /***************max 700***************/
@@ -412,6 +416,7 @@ footer img{
 		width: calc(90% / 2);
 		margin-left: 10px;
 	}
+	
 	.brani-recenti {
 		justify-content: flex-start;
 		flex-wrap: wrap;
@@ -462,6 +467,10 @@ footer img{
 }
 hr{
 	display: none;
+}
+.song-lyst li{
+	margin-top: 6px;
+	margin-right: 5px;
 }
 }
 
