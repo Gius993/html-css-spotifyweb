@@ -282,22 +282,34 @@ h3{
 }
 
 /****************footer**********/
+footer strong{
+	color: white;
+	font-size: 10px;
+}
+footer p{
+	color: #a3a3a3;
+}
+
 .container-play{
 	width: 100%;
 	height: 100%;
 	display: flex;
 	justify-content: space-between;
 }
-.area{
-	width: calc(70% / 3);
-}
-.gio{
+.area{	
 	display: flex;
-	width: calc(100% / 3);
-	height: 100%;
-	background-color: brown;
-	border: 1px solid black;
 }
+.testo-brano{
+ margin-top: 30px;
+}
+.brano-immagine{	
+	margin-top: 20px;
+}
+footer img{
+	width: 10%;	
+}
+
+
 /***************style**************/
 .bottone-nero{
 	padding: 10px 25px;
