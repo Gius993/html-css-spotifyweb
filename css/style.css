@@ -357,6 +357,32 @@ footer img{
 	background-color: white;
 	border-radius: 2px;
 }
+.area3{
+	display: flex;
+	color: white;
+	align-items: center;
+	justify-content: end;
+}
+.icon-app{
+	font-size: 10px;
+}
+.icon-app i {
+	margin-left: 10px;
+}
+.volume-barra{
+	width: 100px;
+	height: 4px;
+	border-radius: 2px;
+	background-color: #a3a3a3;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+.volume-scelto{
+	width: 20%;
+	height: 100%;
+	background-color: white;
+	border-radius: 2px;	
+}
 /***************style**************/
 .bottone-nero{
 	padding: 10px 25px;
