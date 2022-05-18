@@ -70,8 +70,16 @@ main a:hover{
 .navigazione li img{
 	width:10% ;
 	margin-right: 5px;
+	margin-left: 5px;
 }
-
+.navigazione i{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.navigazione a{
+	display: flex;
+	align-items: center;
+}
 .playlist{
 	margin-top: 15px;	
 }
@@ -104,11 +112,18 @@ main a:hover{
 	margin-bottom: 10px;
 	width: 100%;
 }
+.installa a{
+	display: flex;
+	align-items: center;
+}
 .profilo-installa img{
 	width: 6%;	
 }
 .profilo{
 	margin: 10px 0px;
+}
+.profilo i{
+	margin-right: 6px;
 }
 hr{
 	width: 220px;
@@ -411,6 +426,7 @@ footer img{
 
 }
 /***************max 700***************/
+
 @media screen and (max-width: 700px){
 	.brano-titolo{
 		width: calc(90% / 2);
@@ -476,6 +492,14 @@ hr{
 
 /************************************/
 
+/*altezza********/
+@media screen and (max-height: 240px){
+.profilo-installa{display: none;
+}
+.profilo-installa-xs{
+	display: none;
+}
+}
 /***************style**************/
 .bottone-nero{
 	padding: 10px 25px;
