@@ -383,6 +383,16 @@ footer img{
 	background-color: white;
 	border-radius: 2px;	
 }
+/******list menu comand******/
+.list-menu-xs{
+	display: none;
+}
+.Logo-xs{
+	display: none;
+}
+.profilo-installa-xs{
+	display: none;
+}
 /************max 1100px**************/
 @media screen and (max-width: 1100px){
 	/**lista**/
@@ -396,7 +406,64 @@ footer img{
 	}	
 
 }
-
+/***************max 700***************/
+@media screen and (max-width: 700px){
+	.brano-titolo{
+		width: calc(90% / 2);
+		margin-left: 10px;
+	}
+	.brani-recenti {
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}	
+}
+/***************max 600px***********/
+@media screen and (max-width: 600px){
+	/*****vecchie***/
+.left-nav{
+	width: 50px;
+}
+.Logo{
+	display: none;
+}
+.list-menu{
+	display: none;
+}
+.playlist{
+	display: none;
+}
+.profilo-installa{
+	display: none;
+}
+.main-content{
+	width: calc(100% - 50px);
+}
+.upgrade-banner{
+	width: calc(100% - 50px);
+}
+.Logo-xs{
+	display: block;
+	width: 100%;
+}
+.Logo-xs img{
+	width: 100%;
+}
+.list-menu-xs{
+	display: block;
+}
+.navigazione-xs li img{
+	width:100% ;
+	margin-top: 5px;
+}
+.profilo-installa-xs{
+	display: block;
+	position: fixed;
+	bottom: 100px;
+}
+hr{
+	display: none;
+}
+}
 
 /************************************/
 
