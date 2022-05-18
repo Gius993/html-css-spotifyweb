@@ -383,6 +383,17 @@ footer img{
 	background-color: white;
 	border-radius: 2px;	
 }
+/************max 1100px**************/
+@media screen and (max-width: 1100px){
+	/**lista**/
+	.song-lyst ul:last-child {
+		flex-wrap: wrap;
+	}
+}
+
+
+/************************************/
+
 /***************style**************/
 .bottone-nero{
 	padding: 10px 25px;
